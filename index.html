@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pablo Alvarez · Frontend Developer</title>
+    <meta name="description" content="Pablo Alvarez — Frontend Developer (React, Next.js, TypeScript) en Mar del Plata, Argentina. Plataformas de beneficios, e-commerce y productos con IA." />
+    <meta property="og:title" content="Pablo Alvarez · Frontend Developer" />
+    <meta property="og:description" content="React, Next.js y TypeScript. Plataformas para bancos y marcas internacionales." />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <script>
+      // Aplica el tema antes del primer render para evitar el parpadeo
+      try {
+        const saved = localStorage.getItem('theme')
+        const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        if (dark) document.documentElement.classList.add('dark')
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
