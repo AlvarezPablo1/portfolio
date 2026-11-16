@@ -8,7 +8,7 @@ Portfolio personal de Pablo Alvarez, Frontend Developer.
 
 - Inicio con disponibilidad, links de contacto y CV descargable.
 - Sobre mí, con una recomendación.
-- Proyectos destacados: Banco Galicia, nurseIA, Radiant Shadows, Nightspend, Nutrition Forum, MK5 Incentives y Scotiabank Caribe.
+- Proyectos destacados, del más reciente al más antiguo: Radiant Shadows, Nightspend, nurseIA, Scotiabank Caribe, MK5 Incentives, Banco Galicia y Nutrition Forum.
 - Experiencia, skills, formación e idiomas.
 - Contacto por email, con botón para copiarlo.
 - Español (por defecto) e inglés, con un CV distinto para cada idioma.
@@ -73,7 +73,7 @@ Agregá un objeto a `projects` en `es.ts` y en `en.ts`. El orden de la lista es 
   name: 'Mi Proyecto',
   tagline: 'Una línea que lo resume',
   description: 'Qué es y para quién.',
-  status: 'production',             // 'production' | 'in-progress' | 'delivered'
+  status: 'production',             // 'production' | 'in-progress' | 'ongoing' | 'delivered'
   role: 'Mi rol · fechas',
   highlights: ['Logro 1', 'Logro 2'],
   stack: ['React', 'TypeScript'],

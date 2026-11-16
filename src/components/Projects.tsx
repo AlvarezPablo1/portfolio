@@ -6,6 +6,7 @@ import { Card, Reveal, Section, Tag } from './ui'
 const statusStyles: Record<ProjectStatus, string> = {
   production: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300',
   'in-progress': 'bg-amber-50 text-amber-700 dark:bg-amber-400/10 dark:text-amber-300',
+  ongoing: 'bg-sky-50 text-sky-700 dark:bg-sky-400/10 dark:text-sky-300',
   delivered: 'bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300',
 }
 

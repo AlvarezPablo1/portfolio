@@ -1,6 +1,7 @@
 export type Lang = 'es' | 'en'
 
-export type ProjectStatus = 'production' | 'in-progress' | 'delivered'
+/** in-progress: todavía no salió · ongoing: ya publicado y sigo trabajando en él */
+export type ProjectStatus = 'production' | 'in-progress' | 'ongoing' | 'delivered'
 
 export interface Project {
   slug: string
