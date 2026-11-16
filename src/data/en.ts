@@ -94,7 +94,7 @@ export const en: Content = {
       tagline: 'Personal expense tracker with a night theme',
       description:
         'An installable web app for keeping personal finances in order: expenses, income, fixed bills, installments and debts, with statistics and automatic dollar-to-peso conversion.',
-      status: 'delivered',
+      status: 'production',
       role: 'Personal project · full design and development',
       logo: '/nightspend-logo.png',
       liveUrl: 'https://nightspend.vercel.app',
@@ -106,6 +106,10 @@ export const en: Content = {
       ],
       stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Drizzle ORM', 'Zod'],
       note: 'To try it, tap "Entrar como invitado" (continue as guest): you get your own space with sample data.',
+      roadmap: [
+        { label: 'Digital wallets', stack: ['Every payment saved automatically, no manual entry'] },
+        { label: 'App Store and Google Play', stack: ['Available on the iPhone and Android stores'] },
+      ],
     },
     {
       slug: 'nurseia',

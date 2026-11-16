@@ -92,7 +92,7 @@ export const es: Content = {
       tagline: 'App de gastos personales en modo noche',
       description:
         'App web instalable en el celular para ordenar los gastos personales: gastos, ingresos, cuentas fijas, cuotas y deudas, con estadísticas y conversión automática de dólares a pesos.',
-      status: 'delivered',
+      status: 'production',
       role: 'Proyecto propio · diseño y desarrollo completo',
       logo: '/nightspend-logo.png',
       liveUrl: 'https://nightspend.vercel.app',
@@ -104,6 +104,10 @@ export const es: Content = {
       ],
       stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Drizzle ORM', 'Zod'],
       note: 'Para probarla, tocá "Entrar como invitado": se arma un espacio con datos ficticios.',
+      roadmap: [
+        { label: 'Billeteras virtuales', stack: ['Cada pago se guarda solo, sin cargarlo a mano'] },
+        { label: 'App Store y Google Play', stack: ['Disponible en las tiendas de iPhone y Android'] },
+      ],
     },
     {
       slug: 'nurseia',
