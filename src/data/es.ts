@@ -69,7 +69,7 @@ export const es: Content = {
       tagline: 'Web, panel de contenido y creador de placas para un equipo de esports',
       description:
         'Plataforma completa para Radiant Shadows, organización argentina de Valorant con equipo principal y Game Changers: la web pública, un panel para que el staff edite el contenido sin tocar código y un editor que arma las placas de Instagram y X con la identidad del equipo.',
-      status: 'delivered',
+      status: 'production',
       role: 'Freelance para Radiant Shadows · diseño y desarrollo completo · 2026',
       logo: '/radiant-shadows-logo.png',
       liveUrl: 'https://radiantshadows.vercel.app',

@@ -71,7 +71,7 @@ export const en: Content = {
       tagline: 'Website, content panel and social graphics editor for an esports team',
       description:
         'A full platform for Radiant Shadows, an Argentine Valorant organization with a main team and a Game Changers team: the public website, a panel where staff edit content without touching code, and an editor that builds Instagram and X graphics with the team’s branding.',
-      status: 'delivered',
+      status: 'production',
       role: 'Freelance for Radiant Shadows · full design and development · 2026',
       logo: '/radiant-shadows-logo.png',
       liveUrl: 'https://radiantshadows.vercel.app',
