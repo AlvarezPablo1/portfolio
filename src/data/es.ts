@@ -111,6 +111,47 @@ export const es: Content = {
       ],
     },
     {
+      slug: 'radiant-shadows',
+      name: 'Radiant Shadows',
+      tagline: 'Web, panel de contenido y creador de placas para un equipo de esports',
+      description:
+        'Plataforma completa para Radiant Shadows, organización argentina de Valorant con equipo principal y Game Changers: la web pública, un panel para que el staff edite el contenido sin tocar código y un editor que arma las placas de Instagram y X con la identidad del equipo.',
+      status: 'production',
+      role: 'Freelance para Radiant Shadows · diseño y desarrollo completo · 2026',
+      logo: '/radiant-shadows-logo.png',
+      liveUrl: 'https://radiantshadows.vercel.app',
+      metrics: [
+        { value: '13', label: 'tipos de publicación' },
+        { value: '3', label: 'formatos por placa' },
+        { value: '2', label: 'rosters (main y Game Changers)' },
+      ],
+      highlights: [
+        'Web pública con rosters, noticias, calendario de partidos y contacto por mail, con un héroe en video optimizado para celular.',
+        'Panel de administración con login para que el staff cargue jugadores, noticias y partidos, más una agenda de contenido privada.',
+        'Creador de placas para historias, feed y X: varios diseños por tipo de publicación, editor de capas con guías e imantado y exportación en PNG o JPG.',
+        'Recorte de fondo de fotos con IA en el navegador y quitafondos propio para logos, sin subir imágenes a ningún servidor.',
+      ],
+      stack: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'Konva', 'Vercel Blob', 'Resend'],
+    },
+    {
+      slug: 'nightspend',
+      name: 'Nightspend',
+      tagline: 'App de gastos personales en modo noche',
+      description:
+        'App web instalable en el celular para ordenar los gastos personales: gastos, ingresos, cuentas fijas, cuotas y deudas, con estadísticas y conversión automática de dólares a pesos.',
+      status: 'production',
+      role: 'Proyecto propio · diseño y desarrollo completo',
+      logo: '/nightspend-logo.png',
+      liveUrl: 'https://nightspend.vercel.app',
+      highlights: [
+        'Gastos por mes y año en tabla o lista, con búsqueda, categorías y estadísticas por día, mes y categoría.',
+        'Cuentas fijas, compras en cuotas con lo comprometido a futuro, ingresos que se registran solos cada mes y deudas.',
+        'Dólares convertidos a pesos con la cotización de cada día, exportación a Excel o CSV y un resumen mensual por mail.',
+        'Modo invitado aislado: cada visitante prueba la app con datos ficticios en su propio espacio, separado de la base real y borrado a las 24 horas.',
+      ],
+      stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Drizzle ORM', 'Zod'],
+    },
+    {
       slug: 'nutrition-forum',
       name: 'Nutrition Forum',
       tagline: 'Plataforma de eventos online para Danone México',

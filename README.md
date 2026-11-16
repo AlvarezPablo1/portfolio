@@ -8,7 +8,7 @@ Portfolio personal de Pablo Alvarez, Frontend Developer.
 
 - Inicio con disponibilidad, links de contacto y CV descargable.
 - Sobre mí, con una recomendación.
-- Proyectos destacados: Banco Galicia, nurseIA, Nutrition Forum, MK5 Incentives y Scotiabank Caribe.
+- Proyectos destacados: Banco Galicia, nurseIA, Radiant Shadows, Nightspend, Nutrition Forum, MK5 Incentives y Scotiabank Caribe.
 - Experiencia, skills, formación e idiomas.
 - Contacto por email, con botón para copiarlo.
 - Español (por defecto) e inglés, con un CV distinto para cada idioma.

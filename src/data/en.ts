@@ -113,6 +113,47 @@ export const en: Content = {
       ],
     },
     {
+      slug: 'radiant-shadows',
+      name: 'Radiant Shadows',
+      tagline: 'Website, content panel and social graphics editor for an esports team',
+      description:
+        'A full platform for Radiant Shadows, an Argentine Valorant organization with a main team and a Game Changers team: the public website, a panel where staff edit content without touching code, and an editor that builds Instagram and X graphics with the team’s branding.',
+      status: 'production',
+      role: 'Freelance for Radiant Shadows · full design and development · 2026',
+      logo: '/radiant-shadows-logo.png',
+      liveUrl: 'https://radiantshadows.vercel.app',
+      metrics: [
+        { value: '13', label: 'post types' },
+        { value: '3', label: 'formats per graphic' },
+        { value: '2', label: 'rosters (main and Game Changers)' },
+      ],
+      highlights: [
+        'Public website with rosters, news, match calendar and email contact, plus a video hero optimized for mobile.',
+        'Admin panel with login where staff manage players, news and matches, plus a private content calendar.',
+        'Graphics editor for stories, feed and X: several designs per post type, a layer editor with guides and snapping, and PNG or JPG export.',
+        'In-browser AI background removal for photos and a custom background remover for logos, without uploading images to any server.',
+      ],
+      stack: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'Konva', 'Vercel Blob', 'Resend'],
+    },
+    {
+      slug: 'nightspend',
+      name: 'Nightspend',
+      tagline: 'Personal expense tracker with a night theme',
+      description:
+        'An installable web app for keeping personal finances in order: expenses, income, fixed bills, installments and debts, with statistics and automatic dollar-to-peso conversion.',
+      status: 'production',
+      role: 'Personal project · full design and development',
+      logo: '/nightspend-logo.png',
+      liveUrl: 'https://nightspend.vercel.app',
+      highlights: [
+        'Expenses by month and year in a table or list, with search, categories and statistics by day, month and category.',
+        'Fixed bills, installment purchases with future commitments, income that records itself every month, and debts.',
+        'Dollars converted to pesos with each day’s exchange rate, Excel or CSV export, and a monthly summary by email.',
+        'Isolated guest mode: each visitor tries the app with sample data in their own space, separate from the real database and deleted after 24 hours.',
+      ],
+      stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Drizzle ORM', 'Zod'],
+    },
+    {
       slug: 'nutrition-forum',
       name: 'Nutrition Forum',
       tagline: 'Online events platform for Danone Mexico',
